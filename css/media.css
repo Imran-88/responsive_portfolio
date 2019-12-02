@@ -1,0 +1,630 @@
+
+/* =============Extra Large Device ===================*/
+@media( min-width: 1200px)
+.heading h1 {
+    font-size: 50px;
+    padding: 50px 0;
+}
+h1 span {
+    font-size: 105px;
+}
+.footer-section p {
+    margin-bottom: 0;
+}
+
+/* ============= Large Device ===================*/
+@media(max-width: 1199px){
+   .banner-content h2 {
+    font-size: 55px;    
+} 
+.btn-custom, .btn-custom-reverse {
+    font-size: 16px;
+    padding: 10px 25px;
+}
+.heading h1 {
+    font-size: 45px;
+    padding: 25px 50px;
+}
+h1 span {
+    font-size: 70px;
+}
+.question-section .row h3 {
+    font-size: 40px;
+}
+.question-section .row h3 strong {
+    font-size: 40px;
+
+}
+.question-section .row button {
+padding: 12px 20px;
+}
+.question-section {
+    padding: 70px 0 50px;
+}
+.social a ul li i{
+    font-size: 75px;
+}
+.social a ul li span {
+    font-size: 35px;
+    border-bottom-right-radius: 40px;
+}
+.footer-section p {
+    font-size: 22px;
+
+}
+.social .nav {
+    padding: 10px 0px;
+}
+.social a ul li i {
+    font-size: 60px;
+}
+.social a ul li span {
+    font-size: 30px;
+    border-bottom-right-radius: 35px;
+}
+.get-in-touch-section {
+    padding: 0px 0 25px;
+}
+.footer-section p {
+    margin-bottom: 0;
+}
+}
+/* ============= Medium Device ===================*/
+@media(max-width: 991px){
+
+header .row {
+    min-height: 90vh;
+} 
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;  
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 15px 30px;
+}
+.banner-content h2 {
+    font-size: 50px;  
+} 
+.banner-content p {
+    font-size: 20px;
+    padding: 25px 0 25px;
+}
+.social-link li span {
+    color: 
+    #fff;
+    display: inline-block;
+    font-size: 18px;
+    transform: rotate(-90deg) translate(-40px, -25px);
+}
+.btn-custom, .btn-custom-reverse {
+    font-size: 17px;
+    padding: 8px 20px;
+}
+.about-content {
+    max-width: 100%;
+}
+.about-section img {
+    margin: 30px 0;
+}
+.about-section p {
+    text-align: justify;
+    font-size: 16px;
+}
+.skill-section h4 {
+    font-size: 24px;
+}
+.hvr a {
+font-size: 16px;
+}
+.question-section .row h3 {
+    font-size: 25px;
+}
+.question-section .row h3 strong {
+    font-size: 25px;
+
+}
+.question-section .row button {
+padding: 5px 5px;
+}
+.question-section .row button {
+    font-size: 18px;
+    border-bottom-right-radius: 25px;
+}
+.social a ul li i {
+    font-size: 60px;
+}
+.social a ul li span {
+    padding: 10px 5px;
+    font-size: 25px;
+    border-bottom-right-radius: 30px;
+
+}
+.footer-section p {
+    font-size: 18px;
+
+}
+.social .nav {
+    justify-content: center;
+    padding: 0;
+}
+.social a ul li span {
+    padding: 0px 0px;
+    font-size: 25px;
+}
+.social a ul li i {
+    font-size: 50px;
+}.social .nav {
+    justify-content: space-between;
+}
+.get-in-touch-section {
+    padding: 50px 0 15px;
+}
+
+.get-in-touch-section {
+    padding: 0px 0 0px;
+}
+.social .nav {
+    justify-content: center;
+}
+.footer-section p {
+    margin-bottom: 0;
+}
+}
+
+/* ============= Small Device ===================*/
+
+@media(max-width: 767px){
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 15px;
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    height: 8px;
+}
+.banner-content h2 {
+    font-size: 35px;
+    line-height: 1.2;
+} 
+.banner-content span {
+    font-size: 35px;
+}
+
+.banner-content p{
+    font-size: 14px;
+    padding: 0;
+    line-height: 1.2;
+}
+.btn-custom, .btn-custom-reverse {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.btn-custom{
+    border-bottom-left-radius: 23px;
+}
+.btn-custom:hover {
+    border-bottom-right-radius: 23px;
+}
+
+.btn-custom-reverse{
+    border-bottom-right-radius: 23px;
+}.btn-custom-reverse:hover{
+    border-bottom-left-radius: 23px;
+}
+header .row{
+    min-height: 75vh;
+}
+.social-link {
+    top: auto;
+    right: auto;
+    transform: translateY(0);
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+.banner-content p {
+    padding: 0;
+}
+.social-link li span {
+    color:  #fff;
+    display: inline-block;
+    font-size: 18px;
+    transform: rotate(0) translate(15px, 5px);
+}
+.social-link li {
+    margin: 10px;
+}
+.social-link li a {
+    height: 25px;
+    width: 24px;
+    line-height: 25px;
+}
+.social-link li span {
+    font-size: 14px;
+    transform: rotate(0) translate(5px, 0px);
+}
+.about-section p {
+    font-size: 14px;
+}
+.heading h1 {
+    font-size: 30px;
+}
+h1 span {
+    font-size: 57px;
+}
+
+.work-section .btn {
+    font-size: 16px;
+  margin: 22px 10px;
+}
+.question-section .row h3 strong {
+    font-size: 21px;
+}
+.question-section .row h3 {
+    font-size: 20px;
+}
+.question-section .row button {
+padding: 5px 5px;
+}
+.question-section .row button {
+    font-size: 18px;
+    border-bottom-right-radius: 25px;
+}.question-section .row {
+    padding: 20px 20px 20px 10px;
+    border-bottom-right-radius: 60px;
+    margin: 0 auto;
+}
+
+.footer-section p {
+    font-size: 16px;
+
+}
+.social .nav {
+    justify-content: center;
+}
+.social a ul li i {
+    font-size: 60px;
+}
+.social a ul li span {
+    font-size: 20px;
+
+}
+.social {
+    padding: 50px 0 50px;
+}
+.social-link {
+    bottom: 50px;
+}
+.resume-box p {
+    font-size: 15px;
+
+}
+.get-in-touch-section .btn{
+    margin:25px 0 50px;
+    font-size: 20px;
+}
+
+.footer-section p {
+    margin-bottom: 0;
+}
+}
+
+
+
+
+
+
+/* ============= Extra Small Device ===============*/
+
+@media(max-width: 575px){
+.navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    text-align: center;
+    justify-content: flex-end;
+    text-align: center;
+    background: #16202385;
+}
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block; 
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+.navbar-dark .navbar-toggler{
+    margin-right: 10px;
+}
+.social-link li span {
+    font-size: 15px;
+    transform: rotate(0) translate(10px, 0px);
+}
+.banner-content p {
+    font-size: 12px;
+}
+header .row{
+    min-height: 60vh;
+}
+.social-link {
+    bottom: -15px;
+}
+.banner-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-content span {
+    font-size: 40px;
+    font-weight: 400;
+}
+.btn-custom, .btn-custom-reverse {
+    font-size: 14px;
+    padding: 2px 8px;
+}
+.btn-custom {
+    border-bottom-left-radius: 15px;
+}
+.btn-custom-reverse {
+    border-bottom-right-radius: 15px;
+}
+.social-link li {
+    margin: 5px;
+}
+.social-link li a {
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+}
+.social-link li span {
+    font-size: 14px;
+    transform: rotate(0) translate(10px, -2px);
+}
+.about-section p {
+    font-size: 15px;
+}
+.heading h1 {
+    font-size: 25px;
+}
+h1 span {
+    font-size: 52px;
+}
+.about-section img {
+    margin: 30px 0;
+}
+.skill-section {
+    padding: 0 10px;
+}
+.question-section .row h3 strong {
+    font-size: 30px;
+}
+.question-section .row h3 {
+    font-size: 30px;
+    padding: none;
+}
+.question-section .row button {
+    padding: 5px 5px;
+    float:none;
+}
+.question-section .row button {
+    font-size: 18px;
+    border-bottom-right-radius: 25px;
+}.question-section .row {
+    padding: 15px;
+    border-bottom-right-radius: 65px;
+}
+.question-section{
+    text-align: center;
+   margin: 5px;
+   line-height: 0.5;
+}
+.footer-section p {
+    font-size: 18px;
+
+}
+.social {
+    padding: 40px 0 0px;
+}
+.social a{
+    margin-bottom: 25px;
+}
+.social .nav {
+    justify-content: center;
+}
+.social a ul li span {
+    display: none;
+}
+.social-link li a {
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+}
+.social-link {
+    bottom: 30px;
+}
+.footer-section p {
+ margin-bottom: 0;
+}
+
+.resume-section{
+    padding: 0  5px;
+}
+.resume-section h5{
+    font-size: 18px;
+}
+.resume-box::before{
+
+    content: "";
+    height: 10px;
+    width: 10px;
+    border: 1px solid #73c4da;
+    transition:all 0.4s ease-in-out;
+
+}
+.resume-box{
+
+    margin-left:5px;
+    
+}
+.resume{
+    margin-left:15px;   
+}
+.resume-box:hover .resume{
+    margin-left: 25px;
+}
+.resume-box::after{
+    content: "";
+    width: 1px;
+    margin-left: 4px;
+}
+.resume-box h6 {
+    padding-bottom: 10px;
+}
+.work-section .filter-button-group {
+    max-width: 550px !important;
+    display: block;
+    text-align: center;
+}
+.skill-section h1 span {
+    font-size: 40px;
+}
+.footer-section p {
+    margin-bottom: 0;
+}
+}
+
+
+/*=================max-width 360px=================*/
+@media(max-width: 360px){
+
+.banner-content h2 {
+    font-size: 30px;
+}
+.banner-content span {
+    font-size: 30px;
+}
+.logo{
+    margin-left: 10px;
+}
+.navbar-dark .navbar-toggler{
+    margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 4px 10px;
+
+}
+.btn-custom {
+    margin-right: 0!important;
+}
+.btn-custom:hover{
+    border-bottom-right-radius: 17px;
+}
+.btn-custom-reverse {
+    margin-right: 0!important;
+}
+.btn-custom-reverse:hover{
+    border-bottom-left-radius: 17px
+}
+.social-link {
+    bottom: 35px;
+}
+
+.heading h1 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+h1 span {
+    font-size: 38px;
+}
+.about-section {
+    padding: 0 5px;
+}
+.about-content .heading h1 {
+    font-size: 26px;
+}
+.about-content h1 span {
+    font-size: 54px;
+}
+.skill-section {
+    padding: 0px;
+}
+.skill-section h4 {
+    font-size: 18px;
+}
+.work-section .filter-button-group {
+    max-width: 340px !important;
+    display: block;
+    text-align: center;
+}
+.question-section .row {
+    padding: 25px;
+    margin: 0 auto;
+}
+.question-section .row h3 {
+    font-size: 20px;
+    line-height: 1;
+}
+.question-section .row h3 strong {
+    font-size: 21px;
+}
+.question-section .row button {
+    font-size: 16px;
+    border-bottom-right-radius: 20px;
+}
+.question-section .row button {
+    padding: 0px 10px;
+}
+.question-section {
+    padding: 0px 0 25px;
+}
+.get-in-touch-section .heading h1 {
+    font-size: 27px;
+}
+.get-in-touch-section .heading {
+    margin: 50px 0 30px;
+}
+.get-in-touch-section .btn {
+    margin: 5px 0 25px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 10px;
+    font-weight:400;
+    font-size: 16px;
+
+}
+.question-section .row button {
+    margin-top: 10px;
+}
+.social a ul li i {
+    font-size: 45px;
+}
+.social a {
+    margin-bottom: 20px;
+}
+.social a {
+    display: block;
+    padding: 6px;
+    border-bottom-right-radius: 20px;
+}
+.footer-section p {
+ margin-bottom: 0;
+}
+
+.resume-section{
+    padding: 0 20px;
+}
+}
+
+/*=================max-width 300px=================*/
+
+@media(max-width: 300px){  
+.social-link {
+    bottom: -23px;
+}
+}
+
+
+
+
+

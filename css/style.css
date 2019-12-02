@@ -1,0 +1,560 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@font-face {
+font-family: "impact";
+src: url("fonts/impact.eot");
+src: url("fonts/impact.eot");
+src: url("fonts/impact.eot");
+}
+body{
+	font-family: font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+	padding: 0;
+}
+/*
+============================================== 
+HEADER SECTION
+=======================================
+*/
+header{
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.logo{
+	margin-left: 5px;
+}
+header .row{
+	min-height: 102vh;
+}
+h1 span{
+	font-family: impact;
+}
+.navbar-nav{}
+.navbar-nav li{
+	list-style: none;
+}
+.navbar-nav li a{
+	text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgba(64, 175, 204, 0);
+    position: relative;
+    padding: 36px 17px;
+    transition-duration: 0.4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	 background: rgba(64, 175, 204, .25);
+	 color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::after{
+	content: "";
+	width: 100%;
+	height: 0;
+	background: rgba(64, 175, 204);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition-duration: .05s;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+	height: 10px;
+	background: rgba(64, 175, 204, 1);
+}
+.navbar-dark .navbar-toggler {
+    color:  #b2c5ca;
+    border-color: #69c0d7;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+}
+.navbar-dark .navbar-toggler:hover {
+    background-color: #b2c5ca;
+    color: #69c0d7;
+}
+.banner-content{
+	color:#fff;
+	text-align: center;
+} 
+.banner-content h2{
+    font-size: 65px;
+    color: #61bdd5;
+    font-weight: 700;
+}
+.banner-content span{
+    font-size: 65px;
+    color: #f7f7f7;
+    font-weight: 500;
+}
+.banner-content p{
+	color: #a1a2a2;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 25px 0 50px;
+}
+.btn-custom,
+.btn-custom-reverse{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 15px 30px;
+	border: 2px solid #61bdd5;
+	transition: all 0.4s;
+	
+}
+.btn-custom{
+	background: #61bdd5;
+	border-bottom-left-radius: 30px;
+}
+
+.btn-custom-reverse{
+	background: transparent;
+	border-bottom-right-radius: 30px;
+}
+.btn-custom:hover{
+	background: transparent;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 30px;
+
+}
+.btn-custom-reverse:hover{
+	background: #61bdd5;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 0;
+}
+
+.social-link {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+   
+}
+.social-link li{
+    margin-bottom: 10px;
+}
+.social-link li a{
+	color: #929292;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+
+}
+.social-link li span {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    transform: rotate(-90deg) translate(-50px, -25px);
+}
+
+.social-link li a:hover{
+	background-color: #61bdd5;
+	transition: all 0.4s ease-in-out;
+}
+/*
+============================================== 
+ABOUT SECTION
+=======================================
+*/
+
+.about-section{
+	margin-bottom: 50px;
+}
+
+.about-section img{
+	margin:100px 0;
+}
+.about-content{
+	max-width: 80%;
+	justify-content: center;
+}
+.heading h1{
+    color: #40afccba;
+    font-size: 55px;
+    font-weight: 700;
+    position: relative;
+    padding: 50px 49px;
+    text-align: center;
+}
+h1 span{
+    position: absolute;
+    font-size: 100px;
+    color: #f7f7f7f7;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+.about-section p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #737373;
+	
+}
+/*
+============================================== 
+SKILL SECTION
+=======================================
+*/
+.skill-section{
+	margin-bottom: 50px;
+}
+.skill-section .heading h1{
+	font-weight: 700;
+}
+.skill-section h4{
+	color: #40afccba;
+	font-size: 30px;
+	padding: 40px 0 20px;
+	font-weight: 600;
+}
+.skill-section .row{
+	justify-content: center;
+}
+.skill-section img{
+	width: :350px;
+	height:350px;
+}
+.hvr{
+    position: relative;
+}
+.hvr a{
+    position: absolute;
+    left: 0;
+
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.4s;
+	opacity: 0;
+}
+.hvr:hover a{
+	text-decoration: none;
+	opacity: 1;
+	top: 50%;
+    transform: translatey(-50%);
+
+}
+.hvr::after{
+	content: "";
+	background: #12191ac2;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	transform: scale(.5);
+	z-index: 0;
+	transform: scale(0.5);
+	transition: all 0.4s;
+	opacity: 0;
+}
+.hvr:hover::after{
+	transform: scale(1);
+	opacity: 1;
+}
+
+/*
+============================================== 
+RESUME SECTION
+=======================================
+*/
+.resume-section{
+	padding: 50px 0 100px;
+}
+.resume-section h5{
+    text-align: left;
+    font-size: 22px;
+    color: #aaaaaa;
+    font-weight: 700;
+    padding: 60px 0 30px;
+}
+.resume-box::before{
+
+	content: "";
+	height: 20px;
+	width: 20px;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background: #73c4da;
+	display: inline-block;
+	position: absolute;
+	border: 2px solid #73c4da;
+	transition:all 0.4s ease-in-out;
+	z-index: 1;
+}
+.resume-box:hover::before{
+	box-shadow: 0 0 2px #73c4da;
+	background: #fff;
+}
+.resume-box{
+	position: relative;
+	margin-left:10px;
+	
+}
+.resume{
+	margin-left:30px;
+	padding: 30px 10px 30px 10px;
+	
+}
+.resume-box:hover .resume{
+	background-image: url(../images/education_img.png);
+	margin-left: 60px;
+	box-shadow: 0px 2px 5px #69c0d7;
+	transition: all 0.4s ease-in-out;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.resume-box::after{
+	content: "";
+	width: 2px;
+	height: 100%;
+	display: block;
+	background: #73c4da;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 9px;
+}
+.resume-box span{
+    color: #242424;
+    background: transparent;
+    font-weight: 600;
+    padding: 5px 20px;
+    border: 2px solid #242424;
+    border-bottom-right-radius: 25px;
+    font-size: 22px;
+}
+.resume-box:hover span{
+	background: transparent;
+	color: #73c4da;
+	border: 2px solid #73c4da;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 0;
+}
+.resume-box h5{
+    text-align: left;
+    font-size: 22px;
+    color: #aaaaaa;
+    font-weight: 700;
+    padding: 15px 0 0;
+    text-transform: uppercase;
+}
+.resume-box:hover h5{
+	color: #73c4da;
+	transform: 0.4s ease;
+}
+.resume-box h6{
+    padding-bottom: 20px;
+}
+.resume-box p{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/*
+============================================== 
+WORKS SECTION
+=======================================
+*/
+.work-section{
+	margin: 50px 0;
+}
+.work-section .btn{
+    background: #fff;
+    color: #b5b5b5;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 70px 10px;
+    border:none;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+.filter-button-group {
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.filter-button-group button:hover{
+	background: #fff;
+	color: #40afcc;
+	border: 2px solid #40afcc;
+	border-bottom-right-radius: 25px;
+}
+
+/*
+============================================== 
+Question SECTION
+=======================================
+*/
+.question-section{
+	padding:50px 0 100px;
+}
+.question-section .row{
+	background: #40afcc;
+	background-image: url(../images/question.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 35px 0px 35px 0px;
+	align-items: center;
+	border-bottom-right-radius: 105px;
+}
+.question-section .row h3{
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+.question-section .row h3 strong{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+.question-section .row button{
+	float:right;
+	background: #fff;
+	font-size: 24px;
+	color: #40afcc;
+	font-weight: 600;
+	padding: 18px 45px;
+	border-bottom-right-radius: 40px;
+}
+	
+.modal-body input[type="Email"]{margin: 5px 0;}
+.modal-body textarea{
+
+}
+.modal-body input[type="submit"]{
+	margin-top: 10px;
+	float: right;
+	padding: 0 30px;
+	background: transparent;
+	border: 2px solid #6c757d;
+	border-bottom-right-radius: 15px;
+}
+
+
+/*
+============================================== 
+GET IN TOUCH SECTION
+=======================================
+*/
+.get-in-touch-section {
+    padding: 50px 0 25px;
+
+}
+.get-in-touch-section .heading{
+	margin-bottom: 100px;
+
+}
+.get-in-touch-section .row .form-control{
+	margin-bottom: 15px;
+	border: 1px solid #40afcc;
+}
+.get-in-touch-section .btn{
+	margin:30px 0 60px;
+	font-size: 22px;
+	background-color: transparent;
+	color:#737373;
+	border: 1px solid #40afcc;
+	border-radius: 0;
+	border-bottom-right-radius: 25px;
+	padding: 15px 30px;
+	transition: all 0.4s ease;
+}
+.get-in-touch-section .btn:hover{
+	background:#f1fcff;
+	border: 1px solid #40afcc;
+	color: #40afcc;
+}
+.social .nav {
+    justify-content: space-between;
+    background: ##f1fcff;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-bottom-right-radius: 50px;
+}
+.social{
+	padding: 50px 0 100px;
+}
+.social a{
+	display: block;
+	color:fff;
+	background: #fff;
+	padding:20px;
+	border-bottom-right-radius: 50px;
+	transition: all 0.4s ease-in-out;
+	
+}
+.social a:hover {
+   text-decoration: none;
+    background: #f1fcff;
+}
+.social a ul{
+	align-items: center;
+	justify-content: center;
+}
+.social a ul li{
+	padding: 0 12px;
+}
+.social a ul li i{
+	font-size: 90px;
+	color: #40afcc}
+.social a ul li span{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color:#40afcc;
+}
+.social a ul li i:hover {
+    color:#40afcc;
+    background: #f1fcff;
+}
+.social a ul li span:hover{
+	color: #40afcc;
+}
+
+
+/*
+============================================== 
+FOOTER SECTION
+=======================================
+*/
+.footer-section{
+	background: #40afcc;
+	margin-bottom: 0;
+
+}
+.footer-section p{
+		text-align: center;
+		padding: 35px 0;
+		font-size: 24px;
+		color: #fff;
+}
+
+
+
+
